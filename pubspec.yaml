@@ -1,0 +1,90 @@
+name: word_pedometer
+description: A passive grammar and speech monitoring mobile application that acts as a pedometer for words.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Framework
+  cupertino_icons: ^1.0.0
+  
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.0
+  
+  # Dependency Injection
+  get_it: ^9.2.0
+  
+  # Speech Recognition
+  speech_to_text: ^7.3.0
+  
+  # Authentication
+  google_sign_in: ^6.2.2
+  
+  # Local Database
+  sqflite: ^2.0.0
+  path_provider: ^2.0.0
+  
+  # Utilities
+  dartz: ^0.10.0
+  intl: ^0.20.2
+  uuid: ^4.5.2
+  
+  # Charts & Visualization
+  fl_chart: ^1.1.1
+  
+  # Permissions
+  permission_handler: ^12.0.1
+  
+  # Background Services
+  workmanager: ^0.9.0+3
+  flutter_background: ^1.0.0
+  
+  # Code Generation
+  freezed_annotation: ^3.1.0
+  # json_serializable is only needed at build time (dev); keep it in dev_dependencies below
+  
+  # Logging
+  logger: ^2.6.2
+
+  # Firebase
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.6
+  firebase_analytics: ^11.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^6.0.0
+  
+  # Testing
+  # mocktail 0.3.x is incompatible with bloc_test 8.x; use 0.2.x for compatibility
+  mocktail: ^1.0.4
+  # Use bloc_test 8.4.x which depends on mocktail ^0.2.0 and is compatible with flutter_bloc 8.x
+  bloc_test: ^10.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.0
+  freezed: ^3.2.5
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    # - assets/fonts/
+  
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700

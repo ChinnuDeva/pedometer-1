@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "758969199294",
+    "project_id": "pedometer-6a454",
+    "storage_bucket": "pedometer-6a454.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758969199294:android:294efd20a4fff89a780cef",
+        "android_client_info": {
+          "package_name": "com.example.word_pedometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758969199294-k3qikvkgjshqc9f01i5n9s3q1cc33atl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.word_pedometer",
+            "certificate_hash": "e60dabb4e2de6e7ea37d03df04b323ed0abf7cc3"
+          }
+        },
+        {
+          "client_id": "758969199294-h6hkc278lqlingrmedcl9on3g32ja6hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1NRE9xObhCtbi0fkcXeWIchR646f6NRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758969199294-h6hkc278lqlingrmedcl9on3g32ja6hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
